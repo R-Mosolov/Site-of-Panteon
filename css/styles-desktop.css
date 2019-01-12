@@ -1,0 +1,8 @@
+@media (min-width: 768px) and (min-width: 1200px) {
+	.layout-positioner {
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0 25px;
+		width: 1150px;
+	}
+}
