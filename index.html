@@ -9,13 +9,13 @@
 	<div class="background__header-offer">
 		<header class="header">
 			<div class="layout-positioner">
-				<img class="header__logo" src="logo.svg">
-				<p>Pantheon</p>
-				<p>project</p>
-				<p>Меню</p>
+				<img class="header__logo--image" src="img/logo.png" width="139" height="139" alt="Логотип Panteon">
+				<p class="header__logo--name">Pantheon</p>
+				<p class="header__logo--description">project</p>
+				<p class="visually-hidden__mobile">Меню</p>
 				<nav type="button" class="main-nav">
 					<button class="main-nav__toggle"></button>
-					<ul class="main-nav__wrapper site-list visually-hidden">
+					<ul class="main-nav__wrapper site-list visually-hidden__mobile">
 						<li class="site-list__item site-list__item--active">Пункт назначения</li>
 						<li class="site-list__item">Марс. Вспомнить всё</li>
 						<li class="site-list__item">От идеи до реализации</li>
@@ -37,13 +37,15 @@
 					class="offer__video" 
 					width="585" height="290"
 					preload="metadata"
-					poster="img/screen1-poster.jpg">
+					poster="img/offer__video-poster.jpg">
 						<source src="video/video.mp4" type="video/mp4">
 						<source src="video/video.ogv" type="video/ogg">
 						<source src="video/video.webm" type="video/webm">
 					</video>
-					<p class="offer__description">Первый город на планете Марс недалеко от горы Олимп</p>
-					<p class="offer__button--text">Смотреть видео</p>
+					<div class="offer__description--limit">
+						<p class="offer__description--text">Первый город на планете Марс недалеко от горы Олимп</p>
+					</div>
+					<p class="offer__button--text visually-hidden__mobile">Смотреть видео</p>
 					<svg class="offer__button--image-background" 
 						xmlns="http://www.w3.org/2000/svg"
 						xmlns:xlink="http://www.w3.org/1999/xlink"
