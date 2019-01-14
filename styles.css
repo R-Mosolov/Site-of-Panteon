@@ -8,8 +8,8 @@
 	.layout-positioner {
 		margin-left: auto;
 		margin-right: auto;
-		padding: 0 75px;
-		min-width: 270px;
+		padding: 0 15px;
+		min-width: 290px;
 	}
 
 	.visually-hidden__mobile {
@@ -19,34 +19,34 @@
 	.h2__styles--light-background,
 	.number {
 		font-family: ProximaNova-Bold, "Arial", sans serif;
-		font-size: 105px;
+		font-size: 36px;
 		color: #e12457;
 	}
 
 	.h2__styles--dark-background {
 		font-family: ProximaNova-Bold, "Arial", sans serif;
-		font-size: 105px;
+		font-size: 36px;
 		color: black;
 	}
 
 	.h3__styles--light-background {
 		font-family: ProximaNova-Bold, "Arial", sans serif;
-		font-size: 70px;
+		font-size: 24px;
 		color: black;
 	}
 
 	.h3__styles--dark-background {
 		font-family: ProximaNova-Bold, "Arial", sans serif;
-		font-size: 70px;
+		font-size: 24px;
 		color: black;
 	}
 
 	.h3__smaller {
-		font-size: 30px;
+		font-size: 16px;
 	}
 
 	.h3__smaller {
-		font-size: 30px;
+		font-size: 14px;
 	}
 
 	.p-styles,
@@ -60,8 +60,7 @@
 
 	/*HEADER BLOCK*/
 	.header__logo--image {
-		margin: 60px 0px 0px 45px;
-		/*высота 20 пикс., ширина 15 пикс.*/
+		margin-top: 20px;
 	}
 
 	.header__logo--name {
@@ -103,10 +102,26 @@
 
 	.offer__headind--mars {
 		font-family: "ProximaNova-Black", "Arial", sans serif;
-		font-size: 220px;
+		font-size: 70px;
+	}
+
+	.offer__video-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.offer__video {
+		width: 215px; 
+		height: 140px;
+	}
+
+	.offer__button--image-background {
+		position: relative;
+		margin: -95px 0px 0px 0px;
 	}
 
 	.offer__description--limit {
+		margin-top: -28px;
 		margin-left: 42%;
 		max-width: 360px;
 	}

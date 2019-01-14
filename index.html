@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>PANTHEON</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="fonts.css">
@@ -10,7 +11,7 @@
 	<div class="background__header-offer">
 		<header class="header">
 			<div class="layout-positioner">
-				<img class="header__logo--image" src="img/logo.png" width="139" height="139" alt="Логотип Panteon">
+				<img class="header__logo--image" src="img/logo.png" width="39" height="39" alt="Логотип Panteon">
 				<p class="header__logo--name">Pantheon</p>
 				<p class="header__logo--description">project</p>
 				<p class="visually-hidden__mobile">Меню</p>
@@ -25,7 +26,6 @@
 						<li class="site-list__item">Когда вылетаем</li>
 					</ul>
 				</nav>
-				<hr>
 			</div>
 		</header>
 		<main>
@@ -34,34 +34,20 @@
 					<h1 class="offer__headind">Пункт назначения: <span class="offer__headind--panteon">Пантеон,</span>
 					<br><span class="offer__headind--mars">Марс</span></h1>
 
-					<video 
-					class="offer__video" 
-					width="585" height="290"
-					preload="metadata"
-					poster="img/offer__video-poster.jpg">
-						<source src="video/video.mp4" type="video/mp4">
-						<source src="video/video.ogv" type="video/ogg">
-						<source src="video/video.webm" type="video/webm">
-					</video>
+					<div class="offer__video-container">
+						<video 
+						class="offer__video"
+						preload="metadata"
+						poster="img/offer__video-poster-2.jpg">
+							<source src="video/video.mp4" type="video/mp4">
+							<source src="video/video.ogv" type="video/ogg">
+							<source src="video/video.webm" type="video/webm">
+						</video>
+					</div>
 					<div class="offer__description--limit">
 						<p class="offer__description--text">Первый город на планете Марс недалеко от горы Олимп</p>
 					</div>
 					<p class="offer__button--text visually-hidden__mobile">Смотреть видео</p>
-					<svg class="offer__button--image-background" 
-						xmlns="http://www.w3.org/2000/svg"
-						xmlns:xlink="http://www.w3.org/1999/xlink"
-						width="52px" height="52px">
-					<path fill-rule="evenodd"  fill="rgb(225, 36, 87)"
-						d="M26.000,-0.000 C40.359,-0.000 52.000,11.640 52.000,26.000 C52.000,40.359 40.359,52.000 26.000,52.000 C11.641,52.000 -0.000,40.359 -0.000,26.000 C-0.000,11.640 11.641,-0.000 26.000,-0.000 Z"/>
-					</svg>
-					<svg class="offer__button--image-play"
-						xmlns="http://www.w3.org/2000/svg"
-						xmlns:xlink="http://www.w3.org/1999/xlink"
-						width="13px" height="14px">
-					<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
-						d="M12.233,6.933 L0.233,13.861 L0.233,0.005 L12.233,6.933 Z"/>
-					</svg>
-					<hr>
 				</div>
 			</section>
 		</div>
@@ -137,7 +123,6 @@
 				<h2 class="h2__styles--dark-background">Подводные камни в масштабах Космоса</h2>
 
 				<video
-				width="1140" height="572"
 				preload="metadata"
 				poster="img/screen4-poster.jpg">
 					<source src="video/video.mp4" type="video/mp4">
