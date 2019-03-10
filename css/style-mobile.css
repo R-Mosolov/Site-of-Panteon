@@ -35,25 +35,26 @@
 
 	.h2__styles--light-background,
 	.number {
-		font-family: ProximaNova-Bold, "Arial", sans serif;
+		font-family: "ProximaNova-Bold", "Arial", sans-serif;
 		font-size: 36px;
 		color: #e12457;
+		font-weight: bold;
 	}
 
 	.h2__styles--dark-background {
-		font-family: ProximaNova-Bold, "Arial", sans serif;
+		font-family: "ProximaNova-Bold", "Arial", sans-serif;
 		font-size: 36px;
 		color: black;
 	}
 
 	.h3__styles--light-background {
-		font-family: ProximaNova-Bold, "Arial", sans serif;
+		font-family: "ProximaNova-Bold", "Arial", sans-serif;
 		font-size: 24px;
 		color: black;
 	}
 
 	.h3__styles--dark-background {
-		font-family: ProximaNova-Bold, "Arial", sans serif;
+		font-family: "ProximaNova-Bold", "Arial", sans-serif;
 		font-size: 24px;
 		color: black;
 	}
@@ -66,9 +67,9 @@
 		font-size: 14px;
 	}
 
-	.p-styles,
+	.general-style__p,
 	.header__logo--description {
-		font-family: ProximaNova-Thin, "Arial", sans serif;
+		font-family: "ProximaNova-Thin", "Arial", sans-serif;
 		font-size: 14px;
 		color: black;
 		text-align: left;
@@ -81,7 +82,7 @@
 	}
 
 	.header__logo--name {
-		font-family: ProximaNova-Semibold, "Arial", sans serif;
+		font-family: "ProximaNova-Semibold", "Arial", sans-serif;
 		font-size: 16,8px;
 		color: white;
 		text-transform: uppercase;
@@ -99,14 +100,14 @@
 		background-size: cover;
 	}
 
-	.screen4 video {
+	.faq video {
 		width: 100%;
 	}
 
 
 	/*OFFER BLOCK*/
 	.offer__headind {
-		font-family: ProximaNova-Thin, "Arial", sans serif;
+		font-family: "ProximaNova-Thin", "Arial", sans-serif;
 		font-size: 14px;
 		color: white;
 		text-transform: uppercase;
@@ -114,11 +115,11 @@
 	}
 
 	.offer__headind--panteon {
-		font-family: "ProximaNova-Regular", "Arial", sans serif;
+		font-family: "ProximaNova-Regular", "Arial", sans-serif;
 	}
 
 	.offer__headind--mars {
-		font-family: "ProximaNova-Black", "Arial", sans serif;
+		font-family: "ProximaNova-Black", "Arial", sans-serif;
 		font-size: 70px;
 	}
 
@@ -150,9 +151,26 @@
 	.offer__description--text {
 		position: relative;
 		top: 13px;
-		font-family: ProximaNova-Light, "Arial", sans serif;
+		font-family: "ProximaNova-Light", "Arial", sans-serif;
 		font-size: 14px;
 		color: white;
 		text-align: left;
+	}
+
+
+
+	.about-mars__facts {
+		display: flex;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		background-color: #fff5f8;
+		overflow: auto;
+	}
+
+	.about-mars__facts--bar {
+		padding: 40px 0px 40px 15px;
+		height: 100px;
+		min-width: 145px;
 	}
 }
