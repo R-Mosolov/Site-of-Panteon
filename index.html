@@ -44,15 +44,14 @@
 			<div class="layout-positioner">
 				<h1 class="offer__headind">Пункт назначения: <span class="offer__headind--panteon">Пантеон,</span>
 				<br><span class="offer__headind--mars">Марс</span></h1>
-				<div class="offer__video-container">
-					<video
-					class="offer__video"
-					preload="metadata"
-					poster="img/offer__video-poster-2.jpg">
+				<div class="offer__video--open"><img src="img/offer__video-poster-2.jpg"></div>
+				<div class="video--content visually-hidden__mobile">
+					<video class="offer__video" preload="auto" muted="muted" controls autoplay>
 						<source src="video/video.mp4" type="video/mp4">
 						<source src="video/video.ogv" type="video/ogg">
 						<source src="video/video.webm" type="video/webm">
 					</video>
+					<div class="video--close"></div>
 				</div>
 				<div class="offer__description--limit">
 					<span class="offer__description--text">Первый город<br>на планете Марс<br>недалеко от горы<br>Олимп</span>
@@ -133,15 +132,7 @@
 			<div class="faq__background">
 				<div class="layout-positioner">
 					<h2 class="faq__h2 h2__styles--dark-background">Подводные камни в масштабах Космоса</h2>
-					<div class="faq__video-container">
-						<video class="faq__video"
-						preload="metadata"
-						poster="img/faq__image--2.jpg">
-							<source src="video/video.mp4" type="video/mp4">
-							<source src="video/video.ogv" type="video/ogg">
-							<source src="video/video.webm" type="video/webm">
-						</video>
-					</div>
+					<div class="faq__video--open"><img class="faq__video--poster" src="img/faq__image--2.jpg"></div>
 					<div class="faq__blocks--container">
 						<h3 class="faq__h3 h3__styles--dark-background h3__smaller">Жить или выживать?</h3>
 						<div class="faq__block-1--open visually-hidden__mobile"></div>
@@ -252,7 +243,8 @@
 	</footer>
 
 
-	<script src="js/faq__blocks-changes.js"></script>
+    <script src="js/open-video.js"></script>
 	<script src="js/header__burger-menu.js"></script>
+    <script src="js/faq__blocks-changes.js"></script>
 </body>
 </html>

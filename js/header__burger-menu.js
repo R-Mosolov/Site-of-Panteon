@@ -1,3 +1,6 @@
+// Проверка подключения кода
+// alert(`Hello, world!`);
+
 // Введение новых переменных, отвечающих за заголовки и содержание блоков
 const burgerMenuOpen = document.querySelector('.header__menu--open');
 const burgerMenuClose = document.querySelector('.header__menu--close');
