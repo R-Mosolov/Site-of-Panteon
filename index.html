@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width = device-width, initial-scale = 1">
 	<title>PANTHEON</title>
 	<link rel="stylesheet" type="text/css" href="css/style-mobile.css">
+	<link rel="stylesheet" type="text/css" href="css/style-desktop.css">
 	<link rel="stylesheet" type="text/css" href="font/font.css">
 	<link rel="stylesheet" type="text/css" href="animation/offer__go-down.css">
 </head>
@@ -15,14 +16,18 @@
 	<div class="background__header-offer">
 		<header class="header header__position">
 			<div class="layout-positioner">
-				<img class="header__logo--image" src="img/logo.png" width="39" height="39" alt="Логотип Panteon">
-				<div class="header__logo--name-description">
-					<span class="header__logo--name">Pantheon</span><br>
-					<span class="header__logo--description">project</span>
+				<div class="header__logo-name-description--desktop">
+					<img class="header__logo--image" src="img/logo.png" width="39" height="39" alt="Логотип Panteon">
+					<div class="header__logo--name-description">
+						<span class="header__logo--name">Pantheon</span><br>
+						<span class="header__logo--description">project</span>
+					</div>
 				</div>
-				<span class="header__menu--open burger-menu"></span>
-				<div class="header__menu--content visually-hidden__mobile">
-					<p class="header__logo--menu-p visually-hidden__mobile">Меню</p>
+				<div class="header__menu-open--desktop">
+					<span class="header__menu--open burger-menu"></span>
+				</div>
+				<div class="header__menu--content visually-hidden">
+					<p class="header__logo--menu-p visually-hidden">Меню</p>
 					<nav type="button" class="main-nav">
 						<ul class="main-nav__wrapper site-list">
 							<li class="site-list__item general-style__p site-list__item--active">Пункт назначения</li>
@@ -44,8 +49,8 @@
 			<div class="layout-positioner">
 				<h1 class="offer__headind">Пункт назначения: <span class="offer__headind--panteon">Пантеон,</span>
 				<br><span class="offer__headind--mars">Марс</span></h1>
-				<div class="offer__video--open"><img src="img/offer__video-poster-2.jpg"></div>
-				<div class="video--content visually-hidden__mobile">
+				<div class="offer__video--open"></div>
+				<div class="video--content visually-hidden">
 					<video class="offer__video" preload="auto" muted="muted" controls autoplay>
 						<source src="video/video.mp4" type="video/mp4">
 						<source src="video/video.ogv" type="video/ogg">
@@ -53,10 +58,10 @@
 					</video>
 					<div class="video--close"></div>
 				</div>
-				<div class="offer__description--limit">
+				<div class="offer__description--position">
 					<span class="offer__description--text">Первый город<br>на планете Марс<br>недалеко от горы<br>Олимп</span>
 				</div>
-				<p class="offer__button--text visually-hidden__mobile">Смотреть видео</p>
+				<p class="offer__button--text visually-hidden">Смотреть видео</p>
 				<div class="offer__down--position">
 					<div class="offer__down--container">
 						<span class="offer__down--arrow-motion"></span>
@@ -72,24 +77,32 @@
 		<!--SCREEN 2: ABOUT-MARS-->
 		<section class="about-mars">
 			<ul class="about-mars__facts">
-				<li class="about-mars__facts--bar general-style__p"><span class="number">4</span><br>четвёртая планета по удалённости от Солнца</li>
-				<li class="about-mars__facts--bar general-style__p"><span class="number">7</span><br>седьмая по размерам планета Солнечной системы</li>
-				<li class="about-mars__facts--bar general-style__p"><span class="number">10,7 %</span><br>массы Земли (ваш вес будет в 3 раза меньше, чем на Земле)</li>
-				<li class="about-mars__facts--bar general-style__p"><span class="number">2</span><br>спутника вместо Луны (как картошка, только больше)</li>
-				<li class="about-mars__facts--bar general-style__p"><span class="number">21 км</span><br>высота самой высокой горы Марса</li>
-				<li class="about-mars__facts--bar general-style__p"><span class="number">+20 С°</span><br>максимальная температура на поверхности </li>
+				<div class="layout-positioner layout-positioner--desktop">
+					<li class="about-mars__facts--bar general-style__p"><span class="number">4</span><br>четвёртая планета по удалённости от Солнца</li>
+					<li class="about-mars__facts--bar general-style__p"><span class="number">7</span><br>седьмая по размерам планета Солнечной системы</li>
+					<li class="about-mars__facts--bar general-style__p"><span class="number">10,7 %</span><br>массы Земли (ваш вес будет в 3 раза меньше, чем на Земле)</li>
+					<li class="about-mars__facts--bar general-style__p"><span class="number">2</span><br>спутника вместо Луны (как картошка, только больше)</li>
+					<li class="about-mars__facts--bar general-style__p"><span class="number">21 км</span><br>высота самой высокой горы Марса</li>
+					<li class="about-mars__facts--bar general-style__p"><span class="number">+20 С°</span><br>максимальная температура на поверхности </li>
+				</div>
 			</ul>
-			<div class="layout-positioner">
-				<h2 class="h2__styles--light-background">Марс. Вспомнить всё</h2>
-				<h3 class="h3__styles--light-background">Что такое Марс?</h3>
-				<p class="general-style__p">Планета Солнечной системы, названа в честь Марса — древнеримского Бога войны. Иногда Марс называют «красной планетой» из-за красного оттенка поверхности, придаваемого ей оксидом железа.
-				<br><br>Особенности планеты — наличие слабой атмосферы, состоящей в основном из улекислого газа, времена года, пылевые бури, сильная эрозия почв.</p>
-				<h3 class="h3__styles--light-background">Где это? Как туда доехать?</h3>
-				<p class="general-style__p">Расстояние до Марса — почти 56 миллионов километров. Чтобы преодолеть такое расстояние, нужно лететь на межпланетоном корабле 7-8 месяцев.</p>
-			</div>
 			<div class="about-mars__background">
-				<img class="about-mars__background--image" src="img/about-mars__background.png">
+				<div class="layout-positioner">
+					<h2 class="h2__styles--light-background about-mars__h2--desktop h2__styles-desktop">Марс. Вспомнить всё</h2>
+					<div class="about-mars__remember-all--desktop">
+						<div class="about-mars__what-is-mars--desktop">
+							<h3 class="h3__styles--light-background">Что такое Марс?</h3>
+							<p class="general-style__p">Планета Солнечной системы, названа в честь Марса — древнеримского Бога войны. Иногда Марс называют «красной планетой» из-за красного оттенка поверхности, придаваемого ей оксидом железа.
+							<br><br>Особенности планеты — наличие слабой атмосферы, состоящей в основном из улекислого газа, времена года, пылевые бури, сильная эрозия почв.</p>
+						</div>
+						<div class="about-mars__where-is-it--desktop">
+							<h3 class="h3__styles--light-background">Где это? Как туда доехать?</h3>
+							<p class="general-style__p">Расстояние до Марса — почти 56 миллионов километров. Чтобы преодолеть такое расстояние, нужно лететь на межпланетоном корабле 7-8 месяцев.</p>
+						</div>
+					</div>
+				</div>
 			</div>
+			<img class="about-mars__background--image" src="img/about-mars__background.png">
 		</section>
 
 
@@ -97,7 +110,7 @@
 		<section class="elon-musk">
 			<div class="elon-musk__background"></div>
 			<div class="layout-positioner">
-				<h2 class="elon-musk__h2 h2__styles--light-background">От идеи до реализации</h2>
+				<h2 class="elon-musk__h2 h2__styles--light-background h2__styles-desktop">От идеи до реализации</h2>
 				<h3 class="elon-musk__h3 h3__styles--light-background">Илон Маск. Гений или безумец?</h3>
 				<p class="elon-musk__p general-style__p">Канадско-американский инженер, предприниматель, изобретатель и инвестор; миллиардер. Основатель компаний SpaceX и X.com, позже переименованной в PayPal. Планирует потратить большую часть накоплений на реализацию своей мечты, а также мечты многих тысяч романтиков, писателей, учёных: создать внеземную цивилизацию.</p>
 				<img class="elon-musk__image" src="img/elon-musk__image.png">
@@ -131,11 +144,11 @@
 		<section class="faq">
 			<div class="faq__background">
 				<div class="layout-positioner">
-					<h2 class="faq__h2 h2__styles--dark-background">Подводные камни в масштабах Космоса</h2>
+					<h2 class="faq__h2 h2__styles--dark-background h2__styles-desktop">Подводные камни в масштабах Космоса</h2>
 					<div class="faq__video--open"><img class="faq__video--poster" src="img/faq__image--2.jpg"></div>
 					<div class="faq__blocks--container">
 						<h3 class="faq__h3 h3__styles--dark-background h3__smaller">Жить или выживать?</h3>
-						<div class="faq__block-1--open visually-hidden__mobile"></div>
+						<div class="faq__block-1--open visually-hidden"></div>
 						<div class="faq__block-1--close"></div>
 						<div class="faq__block-1--content">
 							<p class="faq__p general-style__p general-style__p--dark"><u>Текст блока №1.</u> Чем отличаются Земля и Марс? Какие условия встретят новых поселенцев?</p>
@@ -145,8 +158,8 @@
 
 						<h3 class="faq__h3 h3__styles--dark-background h3__smaller">Готовы ли технологии?</h3>
 						<div class="faq__block-2--open"></div>
-						<div class="faq__block-2--close visually-hidden__mobile"></div>
-						<div class="faq__block-2--content visually-hidden__mobile">
+						<div class="faq__block-2--close visually-hidden"></div>
+						<div class="faq__block-2--content visually-hidden">
 							<p class="faq__p general-style__p general-style__p--dark"><u>Текст блока №2.</u> Чем отличаются Земля и Марс? Какие условия встретят новых поселенцев?</p>
 							<p class="faq__p general-style__p general-style__p--dark">Марс холодная и засушливая планета, на которой есть своя атмосфера, на 96% состоящая из углекислых газов, а минимальная температура опускается до -140 градусов по Цельсию. Каждый год по весне на планете случаются пылевые бури, длящиеся от нескольких часов до нескольких месяцев.</p>
 							<p class="faq__p general-style__p general-style__p--dark">На планете отсутствует магнитное поле, поэтому радиационный фон повышен. А низкая гравитация при длитеьном пребывании на Марсе сделает возвращение на Землю невозможным. Полёт на Марс — билет в один конец с целью создать новую цивилизацию.</p>
@@ -154,8 +167,8 @@
 
 						<h3 class="faq__h3 h3__styles--dark-background h3__smaller">Путешествие на грани фантастики</h3>
 						<div class="faq__block-3--open"></div>
-						<div class="faq__block-3--close visually-hidden__mobile"></div>
-						<div class="faq__block-3--content visually-hidden__mobile">
+						<div class="faq__block-3--close visually-hidden"></div>
+						<div class="faq__block-3--content visually-hidden">
 							<p class="faq__p general-style__p general-style__p--dark"><u>Текст блока №3.</u> Чем отличаются Земля и Марс? Какие условия встретят новых поселенцев?</p>
 							<p class="faq__p general-style__p general-style__p--dark">Марс холодная и засушливая планета, на которой есть своя атмосфера, на 96% состоящая из углекислых газов, а минимальная температура опускается до -140 градусов по Цельсию. Каждый год по весне на планете случаются пылевые бури, длящиеся от нескольких часов до нескольких месяцев.</p>
 							<p class="faq__p general-style__p general-style__p--dark">На планете отсутствует магнитное поле, поэтому радиационный фон повышен. А низкая гравитация при длитеьном пребывании на Марсе сделает возвращение на Землю невозможным. Полёт на Марс — билет в один конец с целью создать новую цивилизацию.</p>
@@ -163,8 +176,8 @@
 
 						<h3 class="faq__h3 h3__styles--dark-background h3__smaller">Жизнь на Марсе</h3>
 						<div class="faq__block-4--open"></div>
-						<div class="faq__block-4--close visually-hidden__mobile"></div>
-						<div class="faq__block-4--content visually-hidden__mobile">
+						<div class="faq__block-4--close visually-hidden"></div>
+						<div class="faq__block-4--content visually-hidden">
 							<p class="faq__p general-style__p general-style__p--dark"><u>Текст блока №4.</u> Чем отличаются Земля и Марс? Какие условия встретят новых поселенцев?</p>
 							<p class="faq__p general-style__p general-style__p--dark">Марс холодная и засушливая планета, на которой есть своя атмосфера, на 96% состоящая из углекислых газов, а минимальная температура опускается до -140 градусов по Цельсию. Каждый год по весне на планете случаются пылевые бури, длящиеся от нескольких часов до нескольких месяцев.</p>
 							<p class="faq__p general-style__p general-style__p--dark">На планете отсутствует магнитное поле, поэтому радиационный фон повышен. А низкая гравитация при длитеьном пребывании на Марсе сделает возвращение на Землю невозможным. Полёт на Марс — билет в один конец с целью создать новую цивилизацию.</p>
@@ -178,7 +191,7 @@
 		<!--SCREEN 6: INFRASTRUCTURE-->
 		<section class="infrastructure">
 			<div class="layout-positioner">
-				<h2 class="h2__styles--light-background">Организация жизни в колонии</h2>
+				<h2 class="h2__styles--light-background h2__styles-desktop">Организация жизни в колонии</h2>
 				<h3 class="h3__styles--light-background">Проживание</h3>
 				<p class="general-style__p">В основе жилых помещений лежат надувные компоненты — спальня, рабочая зона, гостиная, парник для выращивания зелени — 50 м2 на человека. Благодаря этим компонентам, колонисты смогут принять душ, приготовить свежую пищу, носить обычную одежду. Весь комплекс соединен сетью ходов.</p>
 				<button class="button">Подробнее</button>
@@ -194,7 +207,7 @@
 		<section class="subscription">
 			<div class="subscription-page-footer__background">
 				<div class="layout-positioner">
-					<h2 class="subscription__h2 h2__styles--dark-background">Деньги приготовил. Когда вылетаем?</h2>
+					<h2 class="subscription__h2 h2__styles--dark-background h2__styles-desktop">Деньги приготовил. Когда вылетаем?</h2>
 					<p class="subscription__p general-style__p general-style__p--dark">Первый «частный» полёт на Марс осуществит в 2018 году в беспилотном варианте корабль Dragon V2 с помощью тяжёлой ракеты Falcon Heavy. После этого запланированы две миссии в 2020 году, как минимум одна в 2022-м и, вероятно, пилотируемая миссия через два года с достижением Марса в 2025 году.</p>
 					<p class="subscription__p general-style__p general-style__p--dark">Для всех желающих открыты курсы подготовки.</p>
 					<p class="subscription__p general-style__p general-style__p--dark">За 40-100 ближайших лет на Марс планируется доставить до 1 млн. добровольцев.</p>
@@ -221,7 +234,7 @@
 	<footer class="page-footer">
 		<div class="page-footer__background">
 			<div class="layout-positioner">
-				<p class="page-footer__p visually-hidden__mobile">Следуйте за нами</p>
+				<p class="page-footer__p visually-hidden">Следуйте за нами</p>
 				<ul class="page-footer__social-networks">
 					<a href="https://vk.com"><li class="page-footer__social-networks--vk"></li></a>
 					<a href="https://twitter.com"><li class="page-footer__social-networks--twitter"></li></a>

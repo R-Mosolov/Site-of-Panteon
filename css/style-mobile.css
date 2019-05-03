@@ -1,4 +1,5 @@
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px),
+(min-width: 768px) and (min-width: 1200px) {
 
 /* GLOBAL STYLES */
 	.page {
@@ -21,6 +22,10 @@
 		margin-right: auto;
 		padding: 0 15px;
 		min-width: 290px;
+	}
+
+	.layout-positioner--desktop {
+		display: flex;
 	}
 
 	.offer__flex {
@@ -195,8 +200,10 @@
 		margin-left: auto;
 		margin-right: auto;
 		justify-content: center;
+		height: 138px;
 		width: 215px;
 		box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.25);
+		background: url("../img/offer__video-poster-2.jpg") no-repeat;
 	}
 
 	.video--content {
@@ -239,7 +246,7 @@
 		margin: -95px 0px 0px 0px;
 	}
 
-	.offer__description--limit {
+	.offer__description--position {
 		margin-top: -28px;
 		margin-left: 42%;
 		max-width: 360px;
@@ -605,7 +612,7 @@
 		opacity: 0.8;
 	}
 
-	.visually-hidden__mobile {
+	.visually-hidden {
 		display: none;
 	}
 }
