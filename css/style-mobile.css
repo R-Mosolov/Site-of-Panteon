@@ -384,6 +384,10 @@
 		padding-bottom: 20px;
 	}
 
+	.flight-price__p--bold {
+		font-family: "ProximaNova-Semibold", "Arial", sans-serif;
+	}
+
 	.flight-price__span {
 		font-family: "ProximaNova-Thin", "Arial", sans-serif;
 		font-size: 60px;

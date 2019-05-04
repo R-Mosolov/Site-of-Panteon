@@ -17,6 +17,10 @@
 		font-size: 59px;
 	}
 
+	.visually-hidden__desktop {
+		display: none;
+	}
+
 
 /* SCREEN 1: HEADER */
 	.header {
@@ -105,7 +109,7 @@
 	}
 
 
-
+/* SCREEN 2: ABOUT-MARS */
 	.about-mars__background {
 		min-height: 590px;
 		width: auto;
@@ -146,5 +150,85 @@
 
 	.about-mars__h2--desktop {
 		max-width: 1140px;
+	}
+
+
+/*SCREEN 3: ELON-MUSK*/
+	.elon-musk__desktop--flex-total {
+		display: flex;
+	}
+
+	.elon-musk__h2--desktop {
+		margin-bottom: 0px;
+	}
+
+	.elon-musk__desktop--image-portrait {
+		width: 375px;
+		height: 420px;
+		background: url("../img/img-desktop/elon-musk__background--portrait.jpg") no-repeat;
+	}
+
+	.elon-musk__desktop--image-quote {
+		left: 0;
+		width: 13px;
+		height: 13px;
+		background: url("../img/img-desktop/elon-musk__background--quote.png") no-repeat;
+	}
+
+	.elon-musk__desktop--flex-image {
+		margin-left: 70px;
+		flex-basis: 375px;
+	}
+
+	.elon-musk__desktop--image-cloud {
+		margin-top: -100px;
+		padding-bottom: 165px;
+		width: 1140px;
+		height: 310px;
+		background: url("../img/img-desktop/elon-musk__background--cloud.jpg") no-repeat;
+	}
+
+	.elon-musk__desktop--image-rocket {
+		position: absolute;
+		margin-top: -500px;
+		margin-left: 25px;
+		width: 310px;
+		height: 310px;
+		background: url("../img/img-desktop/elon-musk__background--rocket.jpg") no-repeat;
+	}
+
+
+/*SCREEN 4: FLIGHT-PRICE*/
+	.flight-price__background {
+		background: none;
+	}
+
+	.flight-price__h3,
+	.flight-price__p,
+	.flight-price__span,
+	.flight-price__form {
+		position: absolute;
+	}
+
+	.flight-price__h3 {
+		margin: -430px 0 0 400px;
+	}
+
+	.flight-price__p {
+		margin: -365px 0 0 400px;
+		max-width: 475px;
+	}
+
+	.flight-price__span {
+		margin: -280px 0 0 400px;
+	}
+
+	.flight-price__form {
+		margin: -270px 0 0 615px;
+	}
+
+	.flight-price__submit--desktop {
+		margin: -100px 0 0 260px;
+		min-width: 200px;
 	}
 }
