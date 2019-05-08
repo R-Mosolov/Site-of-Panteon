@@ -29,48 +29,48 @@ const faqFourthBlockContent = document.querySelector('.faq__block-4--content');
 
 // Открытие/закрытие блока 1
 faqFirstBlockClose.addEventListener('click', function () {
-    faqFirstBlockOpen.classList.remove('visually-hidden__mobile');
-    faqFirstBlockClose.classList.add('visually-hidden__mobile');
-    faqFirstBlockContent.classList.add('visually-hidden__mobile');
+    faqFirstBlockOpen.classList.remove('visually-hidden');
+    faqFirstBlockClose.classList.add('visually-hidden');
+    faqFirstBlockContent.classList.add('visually-hidden');
 });
 faqFirstBlockOpen.addEventListener('click', function () {
-    faqFirstBlockOpen.classList.add('visually-hidden__mobile');
-    faqFirstBlockClose.classList.remove('visually-hidden__mobile');
-    faqFirstBlockContent.classList.remove('visually-hidden__mobile');
+    faqFirstBlockOpen.classList.add('visually-hidden');
+    faqFirstBlockClose.classList.remove('visually-hidden');
+    faqFirstBlockContent.classList.remove('visually-hidden');
 });
 
 // Открытие/закрытие блока 2
 faqSecondBlockClose.addEventListener('click', function () {
-    faqSecondBlockOpen.classList.remove('visually-hidden__mobile');
-    faqSecondBlockClose.classList.add('visually-hidden__mobile');
-    faqSecondBlockContent.classList.add('visually-hidden__mobile');
+    faqSecondBlockOpen.classList.remove('visually-hidden');
+    faqSecondBlockClose.classList.add('visually-hidden');
+    faqSecondBlockContent.classList.add('visually-hidden');
 });
 faqSecondBlockOpen.addEventListener('click', function () {
-    faqSecondBlockOpen.classList.add('visually-hidden__mobile');
-    faqSecondBlockClose.classList.remove('visually-hidden__mobile');
-    faqSecondBlockContent.classList.remove('visually-hidden__mobile');
+    faqSecondBlockOpen.classList.add('visually-hidden');
+    faqSecondBlockClose.classList.remove('visually-hidden');
+    faqSecondBlockContent.classList.remove('visually-hidden');
 });
 
 // Открытие/закрытие блока 3
 faqThirdBlockClose.addEventListener('click', function () {
-    faqThirdBlockOpen.classList.remove('visually-hidden__mobile');
-    faqThirdBlockClose.classList.add('visually-hidden__mobile');
-    faqThirdBlockContent.classList.add('visually-hidden__mobile');
+    faqThirdBlockOpen.classList.remove('visually-hidden');
+    faqThirdBlockClose.classList.add('visually-hidden');
+    faqThirdBlockContent.classList.add('visually-hidden');
 });
 faqThirdBlockOpen.addEventListener('click', function () {
-    faqThirdBlockOpen.classList.add('visually-hidden__mobile');
-    faqThirdBlockClose.classList.remove('visually-hidden__mobile');
-    faqThirdBlockContent.classList.remove('visually-hidden__mobile');
+    faqThirdBlockOpen.classList.add('visually-hidden');
+    faqThirdBlockClose.classList.remove('visually-hidden');
+    faqThirdBlockContent.classList.remove('visually-hidden');
 });
 
 // Открытие/закрытие блока 4
 faqFourthBlockClose.addEventListener('click', function () {
-    faqFourthBlockOpen.classList.remove('visually-hidden__mobile');
-    faqFourthBlockClose.classList.add('visually-hidden__mobile');
-    faqFourthBlockContent.classList.add('visually-hidden__mobile');
+    faqFourthBlockOpen.classList.remove('visually-hidden');
+    faqFourthBlockClose.classList.add('visually-hidden');
+    faqFourthBlockContent.classList.add('visually-hidden');
 });
 faqFourthBlockOpen.addEventListener('click', function () {
-    faqFourthBlockOpen.classList.add('visually-hidden__mobile');
-    faqFourthBlockClose.classList.remove('visually-hidden__mobile');
-    faqFourthBlockContent.classList.remove('visually-hidden__mobile');
+    faqFourthBlockOpen.classList.add('visually-hidden');
+    faqFourthBlockClose.classList.remove('visually-hidden');
+    faqFourthBlockContent.classList.remove('visually-hidden');
 });

@@ -1,6 +1,6 @@
 @media (min-width: 768px) and (min-width: 1200px) {
 
-/* GLOBAL STYLES */
+	/* GLOBAL STYLES */
 	.page {
 		margin: 0;
 		padding: 0;
@@ -22,7 +22,7 @@
 	}
 
 
-/* SCREEN 1: HEADER */
+	/* SCREEN 1: HEADER */
 	.header {
 		min-height: 110px;
 	}
@@ -45,7 +45,7 @@
 	}
 
 
-/* SCREEN 1: OFFER */
+	/* SCREEN 1: OFFER */
 	.background__header-offer {
 		width: auto;
 		min-height: 950px;
@@ -109,7 +109,7 @@
 	}
 
 
-/* SCREEN 2: ABOUT-MARS */
+	/* SCREEN 2: ABOUT-MARS */
 	.about-mars__background {
 		min-height: 590px;
 		width: auto;
@@ -153,7 +153,7 @@
 	}
 
 
-/*SCREEN 3: ELON-MUSK*/
+	/*SCREEN 3: ELON-MUSK*/
 	.elon-musk__desktop--flex-total {
 		display: flex;
 	}
@@ -198,7 +198,7 @@
 	}
 
 
-/*SCREEN 4: FLIGHT-PRICE*/
+	/*SCREEN 4: FLIGHT-PRICE*/
 	.flight-price__background {
 		background: none;
 	}
@@ -230,5 +230,92 @@
 	.flight-price__submit--desktop {
 		margin: -100px 0 0 260px;
 		min-width: 200px;
+	}
+
+
+	/* SCREEN 5: FAQ */
+	.faq__h2 {
+		padding-top: 100px;
+	}
+
+	.faq__desktop--image {
+		padding-bottom: 45px;
+		width: 1140px;
+		height: 570px;
+		background: url("../img/img-desktop/faq__desktop--image.jpg") no-repeat;
+	}
+
+	.faq__desktop--background {
+		min-height: 1260px;
+		background: url("../img/img-desktop/faq__desktop--background.jpg") no-repeat;
+	}
+
+	.faq__desktop--blocks-container {
+		display: flex;
+	}
+
+	.faq__desktop--blocks-heading {
+		min-width: 285px;
+	}
+
+	.faq__desktop--h3-heading {
+		font-size: 16px;
+		color: #908bb1;
+	}
+
+	.faq__desktop--h3-heading:hover {
+		color: white;
+	}
+
+	.faq__desktop--heading-margin {
+		max-width: 190px;
+	}
+
+	.faq__desktop--h3-details {
+		padding-top: 10px;
+		padding-bottom: 5px;
+		font-size: 24px;
+	}
+
+	.faq__p {
+		max-width: 770px;
+		font-size: 16px;
+	}
+
+	.faq__block-1--open::before,
+	.faq__block-1--open::after,
+	.faq__block-1--close::before,
+	.faq__block-1--close::after,
+	.faq__block-2--open::before,
+	.faq__block-2--open::after,
+	.faq__block-2--close::before,
+	.faq__block-2--close::after,
+	.faq__block-3--open::before,
+	.faq__block-3--open::after,
+	.faq__block-3--close::before,
+	.faq__block-3--close::after,
+	.faq__block-4--open::before,
+	.faq__block-4--open::after,
+	.faq__block-4--close::before,
+	.faq__block-4--close::after {
+		display: none;
+	}
+
+	.faq__desktop--heading-block:before,
+	.faq__desktop--heading-block:after {
+		position: absolute;
+		content: "";
+		margin-top: 26px;
+		margin-left: 215px;
+		width: 12px;
+		height: 2px;
+		background-color: white;
+		transform: rotate(-135deg);
+	}
+
+	.faq__desktop--heading-block:after {
+		transform: rotate(135deg);
+		margin-top: 34px;
+		margin-left: 215px;
 	}
 }

@@ -9,11 +9,11 @@ const burgerMenuContent = document.querySelector('.header__menu--content');
 
 // Открытие/закрытие содержания контента при клике на меню
 burgerMenuOpen.addEventListener('click', function () {
-    burgerMenuOpen.classList.add('visually-hidden__mobile');
-    burgerMenuContent.classList.remove('visually-hidden__mobile');
+    burgerMenuOpen.classList.add('visually-hidden');
+    burgerMenuContent.classList.remove('visually-hidden');
 });
 
 burgerMenuClose.addEventListener('click', function () {
-    burgerMenuContent.classList.add('visually-hidden__mobile');
-    burgerMenuOpen.classList.remove('visually-hidden__mobile');
+    burgerMenuContent.classList.add('visually-hidden');
+    burgerMenuOpen.classList.remove('visually-hidden');
 });

@@ -7,6 +7,7 @@
 // Переменные первого экрана ("Пункт назначения: Пантеон, Марс")
 const offerOpeningVideo = document.querySelector('.offer__video--open');
 const faqOpeningVideo = document.querySelector('.faq__video--open');
+const faqOpeningVideoDesktop = document.querySelector('.faq__desktop--video-open');
 const offerclosingVideo = document.querySelector('.video--close');
 const offervideoContent = document.querySelector('.video--content');
 
@@ -15,22 +16,33 @@ const offervideoContent = document.querySelector('.video--content');
 
 // Видео на первом экране ("Пункт назначения: Пантеон, Марс")
 offerOpeningVideo.addEventListener('click', function () {
-    offerOpeningVideo.classList.add('visually-hidden__mobile');
-    offervideoContent.classList.remove('visually-hidden__mobile');
+    offerOpeningVideo.classList.add('visually-hidden');
+    offervideoContent.classList.remove('visually-hidden');
 });
 
 offerclosingVideo.addEventListener('click', function () {
-    offervideoContent.classList.add('visually-hidden__mobile');
-    offerOpeningVideo.classList.remove('visually-hidden__mobile');
+    offervideoContent.classList.add('visually-hidden');
+    offerOpeningVideo.classList.remove('visually-hidden');
 });
 
-// Видео на пятом экране ("Подводные камни в масштабах Космоса")
+// Видео на пятом экране mobile-версии ("Подводные камни в масштабах Космоса")
 faqOpeningVideo.addEventListener('click', function () {
-    faqOpeningVideo.classList.add('visually-hidden__mobile');
-    offervideoContent.classList.remove('visually-hidden__mobile');
+    faqOpeningVideo.classList.add('visually-hidden');
+    offervideoContent.classList.remove('visually-hidden');
 });
 
 offerclosingVideo.addEventListener('click', function () {
-    offervideoContent.classList.add('visually-hidden__mobile');
-    faqOpeningVideo.classList.remove('visually-hidden__mobile');
+    offervideoContent.classList.add('visually-hidden');
+    faqOpeningVideo.classList.remove('visually-hidden');
+});
+
+// Видео на пятом экране desktop-версии ("Подводные камни в масштабах Космоса")
+faqOpeningVideoDesktop.addEventListener('click', function () {
+    faqOpeningVideoDesktop.classList.add('visually-hidden');
+    offervideoContent.classList.remove('visually-hidden');
+});
+
+offerclosingVideo.addEventListener('click', function () {
+    offervideoContent.classList.add('visually-hidden');
+    faqOpeningVideoDesktop.classList.remove('visually-hidden');
 });
