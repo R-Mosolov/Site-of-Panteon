@@ -21,6 +21,10 @@
 		display: none;
 	}
 
+	.desktop__open {
+		display: block;
+	}
+
 
 	/* SCREEN 1: HEADER */
 	.header {
