@@ -83,6 +83,10 @@
 		color: white;
 	}
 
+	::placeholder {
+		color: white;
+	}
+
 
 /* SCREEN 1: HEADER */
 	.header__logo--image {
@@ -489,14 +493,96 @@
 	}
 
 
-	/* SCREEN 6: SUBSCRIPTION*/
+/* SCREEN 6: INFRASTRUCTURE */
+	.infrastructure__line {
+		width: 25px;
+		height: auto;
+		background-color: red;
+	}
+
+	.infrastructure__flex,
+	.infrastructure__icon--flex {
+		display: flex;
+	}
+
+	.infrastructure__content--all {
+		padding-left: 20px;
+	}
+
+	.infrastructure__icon {
+		padding-bottom: 30px;
+	}
+
+	.infrastructure__icon--residence {
+		height: 23px;
+		width: 30px;
+	}
+
+	.infrastructure__icon--building {
+		height: 19px;
+		width: 26px;
+	}
+
+	.infrastructure__icon--science {
+		height: 31px;
+		width: 22px;
+	}
+
+	.infrastructure__icon--emotions {
+		height: 21px;
+		width: 25px;
+	}
+
+	.infrastructure__icon--ecology {
+		height: 27px;
+		width: 26px;
+	}
+
+	.infrastructure__h4 {
+		position: absolute;
+		margin: 0 0 0 45px;
+		padding: 0;
+		font-family: "ProximaNova-Bold", "Arial", sans-serif;
+		font-size: 17px;
+		color: #e12457;
+	}
+
+	.infrastructure__img--residence,
+	.infrastructure__img--building,
+	.infrastructure__img--science,
+	.infrastructure__img--emotions,
+	.infrastructure__img--ecology {
+		height: 125px;
+		width: 262px;
+		background: url("../img/infrastructure__img--residence.jpg") 50% 50% no-repeat;
+	}
+
+	.infrastructure__h3 {
+		margin-top: 25px;
+	}
+
+	.infrastructure__button {
+		margin: 15px 0 40px 0;
+		padding: 15px 40px;
+		font-family: "ProximaNova-Bold", "Arial", sans-serif;
+		font-size: 16px;
+		color: white;
+		background-color: #e12457;
+		border: 0px solid #e12457;
+		border-radius: 50px;
+	}
+
+/* SCREEN 7: SUBSCRIPTION */
 	.subscription-page-footer__background {
 		padding-bottom: 45px;
-		background: url("../img/subscription__background--1.jpg") 50% 50% no-repeat;
+		width: auto;
+		height: auto;
+		background: url("../img/subscription__background--2.jpg") 50% 50% no-repeat;
 		background-size: cover;
 	}
 
 	.subscription__background {
+		margin-top: 50px;
 		padding-top: 25px;
 		padding-bottom: 5px;
 		background: url("../img/subscription__background.jpg") 50% 50% no-repeat;
@@ -547,14 +633,7 @@
 	}
 
 
-	/* SCREEN 7: PAGE-HEADER*/
-	.page-footer__background {
-		padding: 5px 0px 40px 0px;
-		/*min-height: 260px;*/
-		background: url("../img/page-footer__background.jpg") 50% 50% no-repeat;
-		background-size: cover;
-	}
-
+/* SCREEN 7: PAGE-HEADER */
 	.page-footer__social-networks {
 		display: flex;
 		justify-content: center;
