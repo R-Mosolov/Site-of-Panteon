@@ -1,6 +1,6 @@
 @media (min-width: 768px) and (min-width: 1200px) {
 
-/* GLOBAL STYLES */
+	/* GLOBAL STYLES */
 	.page {
 		margin: 0;
 		padding: 0;
@@ -26,7 +26,7 @@
 	}
 
 
-/* SCREEN 1: HEADER */
+	/* SCREEN 1: HEADER */
 	.header {
 		min-height: 110px;
 	}
@@ -49,7 +49,7 @@
 	}
 
 
-/* SCREEN 1: OFFER */
+	/* SCREEN 1: OFFER */
 	.background__header-offer {
 		width: auto;
 		min-height: 950px;
@@ -113,7 +113,7 @@
 	}
 
 
-/* SCREEN 2: ABOUT-MARS */
+	/* SCREEN 2: ABOUT-MARS */
 	.about-mars__background {
 		min-height: 590px;
 		width: auto;
@@ -157,7 +157,7 @@
 	}
 
 
-/* SCREEN 3: ELON-MUSK */
+	/*SCREEN 3: ELON-MUSK*/
 	.elon-musk__desktop--flex-total {
 		display: flex;
 	}
@@ -202,7 +202,7 @@
 	}
 
 
-/* SCREEN 4: FLIGHT-PRICE */
+	/*SCREEN 4: FLIGHT-PRICE*/
 	.flight-price__background {
 		background: none;
 	}
@@ -237,7 +237,7 @@
 	}
 
 
-/* SCREEN 5: FAQ */
+	/* SCREEN 5: FAQ */
 	.faq__h2 {
 		padding-top: 100px;
 	}
@@ -321,76 +321,5 @@
 		transform: rotate(135deg);
 		margin-top: 34px;
 		margin-left: 215px;
-	}
-
-
-/* SCREEN 7: SUBSCRIPTION */
-	.subscription__h2 {
-		padding-top: 115px;
-	}
-
-	.subscription__desktop--background {
-		height: auto;
-		min-height: 860px;
-		background: url("../img/img-desktop/subscription__desktop--background.jpg") no-repeat;
-		background-size: cover;
-	}
-
-	.subscription__desktop--flex {
-		display: flex;
-	}
-
-	.subscription__desktop--flex-form {
-		order: 1;
-		margin-top: -35px;
-		margin-right: 70px;
-	}
-
-	.subscription__background {
-		height: 415px;
-		width: 395px;
-	}
-
-	.subscription__desktop--flex-text {
-		order: 2;
-		margin-top: -5px;
-	}
-
-
-/* SCREEN 7: PAGE-FOOTER */
-	.page-footer__desktop--flex {
-		display: flex;
-		justify-content: space-between;
-		padding-top: 115px;
-		width: 1140px;
-	}
-
-	.page-footer__desktop--flex-social {
-		display: flex;
-		order: 3;
-	}
-
-	.page-footer__desktop--flex-logo {
-		order: 1;
-	}
-
-	.page-footer__desktop--flex-details {
-		order: 2;
-	}
-
-	.page-footer__p {
-		font-family: "ProximaNova-Regular", "Arial", sans-serif;
-		font-size: 14px;
-		color: lightgray;
-	}
-
-	.page-footer__a--position {
-		padding-left: 30px;
-		padding-top: 10px;
-	}
-
-	.page-footer__social-networks {
-		margin-left: 30px;
-		padding-top: 5px;
 	}
 }
